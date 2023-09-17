@@ -11,7 +11,7 @@ module tt_um_timer (
  
     logic[7:0] counter_d, counter_q;
 
-    assign ui_out = counter_d;
+    assign uo_out = counter_d;
     assign uio_out = counter_d;
     assign uio_oe = '1;
 
